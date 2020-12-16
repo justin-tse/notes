@@ -1,2 +1,2 @@
-# Notes
-This repository is used to record my error and thinking in learning.
+# Notes-error
+This repository is used to record error in programming.
