@@ -47,8 +47,9 @@ make hello -> hello.c -> call hello
 ### Integer Overflow
 
 ## Data Type
-int 32bits(8 bytes) -2^31 ~ 0 ~2^31-1
-unsigned int 32bits(8 bytes)  0 ~ 2^32-1
+- unsigned
+  int 32bits(8 bytes) -2^31 ~ 0 ~2^31-1
+  unsigned int 32bits(8 bytes)  0 ~ 2^32-1
 
 ## Conditional Statements
 - if (and if-else, and if-else if-else-...-else, and if if if-...-else)
@@ -107,4 +108,44 @@ diff
 sudo
 clear
 telnet
+
+- alias 
+It is a command in various command-line interpreters(shells), which enables a replacement of a word by another string. It is mainly used for abbreviating a system command, or for adding default arguments to a regularly used command.
+*how to use it*
+1. In the command line, we can check the alias we have made:
+    ```zsh
+    (base)  XF@MacBook-Pro ⮀ ~/src/justin-tse/notes ⮀ ⭠ main± ⮀ alias 
+    -='cd -'
+    ...=../..
+    ....=../../..
+    .....=../../../..
+    ......=../../../../..
+    1='cd -'
+    2='cd -2'
+    3='cd -3'
+    4='cd -4'
+    5='cd -5'
+    6='cd -6'
+    7='cd -7'
+    8='cd -8'
+    9='cd -9'
+    _=sudo
+    afind='ack -il'
+    d='dirs -v | head -10'
+    globurl='noglob urlglobber '
+    grep='grep  --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}'
+    history='fc -l 1'
+    l='ls -lah'
+    la='ls -lAh'
+    ll='ls -lh'
+    ls='ls -G'
+    lsa='ls -lah'
+    md='mkdir -p'
+    ```
+
+  2. Define by ourselves
+      ```zsh
+      alias gc='git commit'
+      ```
+      As we have seen, git commit will become gc to use it.
 
