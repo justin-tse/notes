@@ -91,6 +91,19 @@ int x = (expr) ? 5 : 6
 - while
 - do-while
 Use when you want a loop to repeat an unknown number of times, but at least once.(Ask to input)
+```c
+float get_dollars(void)
+{
+    // Prompt user for an amounth of change
+    float n;
+    do
+    {
+        n = get_float("Change owed: ");
+    }
+    while (n <= 0);
+    return n;
+}
+```
 - for
 ## Command line 
 - rm -r  r means recursive
@@ -149,3 +162,72 @@ It is a command in various command-line interpreters(shells), which enables a re
       ```
       As we have seen, git commit will become gc to use it.
 
+## Problems set
+
+- [Constants in C](https://www.geeksforgeeks.org/constants-in-c-cpp/)
+Defining Constants:
+In C/C++ program we can define constants in two ways as shown below:
+
+- 1.Using #define preprocessor directive
+```c
+#include<stdio.h>  
+#define val 10  
+#define floatVal 4.5  
+#define charVal 'G'  
+  
+int main()  
+{  
+    printf("Integer Constant: %d\n",val);  
+    printf("Floating point Constant: %.1f\n",floatVal);  
+    printf("Character Constant: %c\n",charVal);  
+      
+    return 0;  
+}  
+```
+```
+Output:
+Integer Constant: 10
+Floating point Constant: 4.5
+Character Constant: G
+```
+
+- 2.Using a const keyword
+```c
+#include <stdio.h> 
+
+const int QUARTERS = 25;
+
+// Keyword, Data, Type name of constant, Initial value
+
+#include <stdio.h> 
+  
+int main() 
+{ 
+    // int constant 
+    const int intVal = 10;  
+  
+    // Real constant 
+    const float floatVal = 4.14; 
+   
+    // char constant  
+    const char charVal = 'A';  
+  
+    // string constant 
+    const char stringVal[10] = "ABC";  
+      
+    printf("Integer constant:%d \n", intVal ); 
+    printf("Floating point constant: %.2f\n", floatVal ); 
+    printf("Character constant: %c\n", charVal ); 
+    printf("String constant: %s\n", stringVal); 
+      
+    return 0; 
+} 
+```
+
+```
+Output:
+Integer constant: 10 
+Floating point constant: 4.14
+Character constant: A 
+String constant: ABC 
+```
