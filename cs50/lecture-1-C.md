@@ -231,3 +231,6 @@ Floating point constant: 4.14
 Character constant: A 
 String constant: ABC 
 ```
+
+- [Comment](https://www.cs.utah.edu/~germain/PPS/Topics/commenting.html#:~:text=In%2Dline%20comments%20should%20be,what%20is%20to%20be%20accomplished.)
+In-line comments should be used sparingly, only where the code is not "self-documenting". When you do use "in-line" comments, you should place them before (or next to) any code that is not self explanatory. This comment should detail the "idea" behind the code and what is to be accomplished.
