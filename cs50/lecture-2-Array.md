@@ -1,4 +1,5 @@
-## Arrays
+#Arrays
+## 1.Lecture
 ### clang
 Clang is the compiler, which is a program that converts source code to machine code.
 clang hello.c
@@ -7,7 +8,7 @@ clang -o hello hello.c (-o output, hello rename, hello.c the target, three comma
 hello*
 
 clang -o hello hello.c -lcs50(link in the CS50 library, means make sure to incorporate all of th machine code from CS50's library into your program as well)
-```shell
+```sh
 ~/ $ make hello 
 clang -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow    hello.c  -lcrypt -lcs50 -lm -o hello
 ```
@@ -152,3 +153,80 @@ can see what was my exit status.
 ### cryptography
 plaintext -> cipher -> ciphertext
 need the key to decode
+
+## 2.Shorts
+### Functions
+- C and nearly all languages developed since allow us to write functions, sometimes alse know as procedures, methods(object oriented programming), or subroutines.
+- A black box with a set of 0+ inputs and 1 output
+### Variable scope
+- **local variables**, which is declared in one function and only to be used inside this function.
+- global variables, which is declared outside of all functions, any function may refer to it.
+- For the most part, local variables in C are *passed by value* in function calls, the callee receives a copy of the passed variable, not the variable itself. That means that the variable in the caller is unchanged unless overwritten.
+- Things can get particularly insidious if the same variable name appears in multiple functions, which is prefectly okay as long as the variables exist in different scopes.
+
+### Arrays
+- index 0
+- last index (n - 1)
+<br />
+- **Be careful!!!** c is very lenient. It will not prevent you from going "out of bounds" of your arrays. 
+<br />
+- When declaring and initializing an array simultaneously, there is a special syntax that may be used to fill up the array with its starting values. 
+For example
+<br />
+```c
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    bool truthtable[] = { false, true, true};
+    for (int i = 0; i < 3; i++)
+    {
+        printf("%d\n", truthtable[i]);
+    }
+}
+```
+This three declaring are the same.
+```c
+// instantiation syntax
+bool truthtable[3] = { false, true, true};
+// C have enough smart to know your array size
+bool truthtable[] = { false, true, true};
+
+// instantiation element syntax
+bool  truthtable[3];
+truthtable[0] = false;
+truthtable[1] = true;
+truthtable[2] = true;
+```
+- multi-dimensional arrays
+bool batteship[10][10]
+<br />
+- While we can treat individual elements of array as variables, we must use a loop to copy over the element one at a time.
+- **Be careful** Not follow passed by value in function call.
+- **Passed by reference** The callee receives that actual array, not a copy of it.
+
+
+### Command Line Arguments
+```c
+int main(int argc, string argv[])
+{
+```
+- argc(argument count) 
+
+| command | argc |
+|:----|:----:|
+| ./greedy | 1 |
+|./greedy 1024 cs50|3|
+
+- argv(argument vector)
+./greedy 1024 cs50
+
+| argv indices | argv contents |
+|:----:|:----:|
+| argv[0] | "./greedy" |
+| argv[1] | "1024" |
+| argv[2] | "cs50" |
+| argv[3] | ??? |
+Be careful argv data type is a string,so 1024 is a string.
+And do not to overstep the bounds of your arrays, particularly argv, given its high degree of importance in your programs.
