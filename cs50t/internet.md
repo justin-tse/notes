@@ -1,4 +1,5 @@
-## Internet
+# [Internet](https://cs50.harvard.edu/technology/2017/notes/2/)
+## [Notes](https://cs50.harvard.edu/technology/2017/notes/2/)
 ### Home Network Breakdowm
 ### IP
 ### DNS
@@ -31,11 +32,19 @@ addresss that starts with
 172.16
 ### Routers
 sometimes called gateway
+like a table, excell.
+And that table, generally has at least like two columns, one of which has an IP address or a prefix, second is where should go.
 ### Traceroute
 ### Undersea Cabling
 ### Cable Modern Demo
+RJ11 telephone
+RJ45 jacks internet cable
+WiFi
+DNS DHCP
 ### Network Switch Demo
+For example, One RJ45 jack to share more RJ45 jacks
 ### Home Router Demo
+Router
 ### Network Cable Demo
+Have different color wires, some of them are used for transmission, some of them are used for receiving, some of them are used for not technically, which used for insulation and cancellation of what might otherwise be interference.
 ### Closing Thoughts and Homework
-aaaaaa
