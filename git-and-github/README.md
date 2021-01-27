@@ -26,5 +26,41 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 - [Solution](https://stackoverflow.com/questions/19864934/git-your-branch-and-origin-master-have-diverged-how-to-throw-away-local-com)
 ```zsh
 git fetch origin
-git reset --hard origin/master
+git reset --hard origin/main     or (master)
+```
+
+
+## 2021.01.27 git push large file warning
+- 1. more than 50 Mb will be warning
+- 2. more than 100 Mb will be error
+- Solution
+https://git-lfs.github.com/
+
+1. Initial first time install
+Homebrew: brew install git-lfs
+MacPorts: port install git-lfs
+
+2. First time using
+```shell
+git lfs install
+```
+
+3. Use Git LFS to select the file types in your respository
+```shell
+git lfs track "*.psd"
+```
+means all .psd files in your respository
+
+If you want to track every respository
+[source][https://git-scm.com/docs/gitattributes]
+
+make sure .gitattributes is tracked
+```shell
+git add .gitattributes
+```
+4. Just commit and push to GitHub as you normally would; for instance, if your current branch is named main:
+```shell
+git add file.psd
+git commit -m "Add design file"
+git push origin main
 ```
