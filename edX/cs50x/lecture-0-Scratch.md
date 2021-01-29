@@ -1,4 +1,3 @@
-# CS50
 ## Start 2021.01.01
 ## 2021- Lecture 0 - Scratch
 ### Introduction
