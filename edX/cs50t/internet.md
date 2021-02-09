@@ -127,18 +127,106 @@ Have different color wires, some of them are used for transmission, some of them
 
 
 ### Assignments
-In a sentence that a non-technical friend or family member would understand, what is the internet?
+1.In a sentence that a non-technical friend or family member would understand, what is the internet?
 
 Internet is a tool which can let you use your computer to communicate with different people in different places in the world.
 
 
-What does it mean if a URL begins with https:// as opposed to http://? 如果 URL 以 https://开头，而不是以 http://开头，这意味着什么？
+2.What does it mean if a URL begins with https:// as opposed to http://? 如果 URL 以 https://开头，而不是以 http://开头，这意味着什么？
+
 URL begins HTTP means it is using hypertext text transfer protocol, port 80.  HTTPS means it is HTTP and also using SSL, a secure connection, port 443.
 
-What does a DHCP server do? DHCP 服务器做什么？
+3.What does a DHCP server do? DHCP 服务器做什么？
+
+DHCP server is used to 
+
+
+4.What is the purpose of a subnet mask? 子网掩码的用途是什么？
 
 
 
-What problem is IPv6 attempting to solve? IPv6试图解决什么问题？
+5.Recall that TCP (tries to) guarantee delivery by ensuring that any lost packets are resent. Why, though, might packets be lost between a sender and receiver? 回想一下，TCP (试图)通过确保重发丢失的数据包来保证传输。但是，为什么数据包会在发送方和接收方之间丢失呢？
+
+6.Describe the difference between a cable modem and a router, in the context of home networking. 描述在家庭网络环境下，电缆调制解调器和路由器的区别
+
+7.In what sense are domain names similar to phone numbers like 1-800-COLLECT? 域名在什么意义上类似于电话号码1-800-COLLECT？
+
+8.What is a "protocol"? 什么是“协议”？
+
+
+
+9.What problem is IPv6 attempting to solve? IPv6试图解决什么问题？
 
 IPv4 uses 32 bits  IP address that we can only contain about 4.3 billion different IP address. But when more and more devices are used to connect to the Internet. We have more than 7 billion people and many people have more than one device.  So 4.3 billion is not enough for us to use. However, IPv6 uses 128 bits IP address, so we can contain about  2^128 different IP address. Therefore, we can solve this problem the more and more devices need to connect the Internet.
+
+10.What elements make up a "packet"? 什么元素组成了“数据包”？
+
+
+
+- traceroute
+```shell
+(base)  ✘ XF@MacBook-Pro ⮀ ~/src/justin-tse/app-academy ⮀ ⭠ master± ⮀ traceroute 128.32.203.137
+traceroute to 128.32.203.137 (128.32.203.137), 64 hops max, 52 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.928 ms  0.576 ms  0.486 ms
+ 2  100.64.0.1 (100.64.0.1)  1.806 ms  1.678 ms  1.419 ms
+ 3  113.98.81.1 (113.98.81.1)  10.133 ms  8.362 ms  7.962 ms
+ 4  113.98.78.249 (113.98.78.249)  6.134 ms  9.438 ms  7.871 ms
+ 5  202.97.94.122 (202.97.94.122)  5.705 ms  4.211 ms  4.609 ms
+ 6  202.97.12.9 (202.97.12.9)  5.154 ms
+    202.97.12.41 (202.97.12.41)  15.882 ms
+    202.97.12.17 (202.97.12.17)  4.909 ms
+ 7  202.97.99.218 (202.97.99.218)  175.919 ms
+    202.97.58.214 (202.97.58.214)  165.690 ms
+    202.97.45.246 (202.97.45.246)  170.446 ms
+ 8  202.97.92.45 (202.97.92.45)  174.391 ms  171.932 ms
+    202.97.50.30 (202.97.50.30)  173.234 ms
+ 9  xe-5-0-1.0.rtsw.wilc.net.internet2.edu (162.252.69.138)  167.804 ms  173.570 ms  160.773 ms
+10  lo-0.8.rtsw.losa.net.internet2.edu (64.57.20.255)  166.614 ms  166.149 ms  164.986 ms
+11  64.57.20.83 (64.57.20.83)  167.768 ms  170.163 ms  171.700 ms
+12  dc-svl-agg8--lax-agg8-100ge-1.cenic.net (137.164.11.1)  176.285 ms *  178.280 ms
+13  dc-svl-agg10--svl-agg8-300g.cenic.net (137.164.11.80)  178.484 ms  170.400 ms  167.604 ms
+14  dc-oak-agg8--svl-agg10-300g.cenic.net (137.164.11.95)  170.077 ms *  173.302 ms
+15  ucb--oak-agg8-10g.cenic.net (137.164.50.31)  178.115 ms  175.820 ms  175.636 ms
+16  sut-mdc-cr1--et-0-0-1.net.berkeley.edu (128.32.0.37)  172.777 ms
+    reccev-cev-cr1--et-0-0-1.net.berkeley.edu (128.32.0.39)  183.486 ms
+    sut-mdc-cr1--et-0-0-1.net.berkeley.edu (128.32.0.37)  178.998 ms
+17  et3-48.inr-311-ewdc.berkeley.edu (128.32.0.101)  175.439 ms  175.867 ms
+    e3-47.inr-310-ewdc.berkeley.edu (128.32.0.99)  170.774 ms
+18  calweb-farm-prod.ist.berkeley.edu (128.32.203.137)  173.042 ms  165.580 ms *
+```
+
+1. 128.32.203.137
+Decimal: 2149632905
+
+Hostname: calweb-farm-prod.ist.berkeley.edu
+
+ASN: 25
+
+ISP: University of California at Berkeley
+
+Organization: University of California at Berkeley
+
+Services: None detected
+
+Type: Broadband
+
+Assignment: Likely Static IP
+
+Continent: North America
+
+Country: United States
+
+State/Region: California
+
+City: Oakland
+
+Javascript disabled or geolocation map not available.
++
+-
+Leaflet | © OpenStreetMap Terms
+Latitude: 37.8381  (37° 50′ 17.16″ N)
+
+Longitude: -122.2609  (122° 15′ 39.24″ W)
+
+Postal Code: 94609
+
