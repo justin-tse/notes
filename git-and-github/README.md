@@ -29,7 +29,6 @@ git fetch origin
 git reset --hard origin/main     or (master)
 ```
 
-
 ## 2021.01.27 git push large file warning
 - 1. more than 50 Mb will be warning
 - 2. more than 100 Mb will be error
