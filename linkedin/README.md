@@ -64,3 +64,10 @@ Listen a basketball coach complain about his son's coach邻居抱怨等.
 3. Distraction by delivery
 4. information overload
 5. inappropriate response
+
+### Mental filters
+Barefoot in the park 
+Snake in the grass 
+Busy as a beaver
+we always use our experience to juge the situation
+Filters are caused by previous experiences and need a good cleaning
