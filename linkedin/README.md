@@ -36,3 +36,23 @@ Ask yourself:
 - One big caution for critical or evaluative listening is not to get distracted by the delivery of the speaker or any other external factors.
 
 - Practice by news or sports commentaries.
+
+### Attending to subtle cues
+Reading nonverbal signals that convey meaning
+Communication
+
+- Practice
+1. Watch people converse in another language
+2. Try to figure out the story
+3. Walking to the meeting, try to figure out who is whose boss
+
+### Empathize with the Speaker
+Listen and paraphrase emotion and content
+
+Empathize Listening
+1. Identify with speaker's feelings
+2. Mind your nonverbals
+3. Use acknowledging responses
+4. Avoid discounting phrases
+- Practice will improve your skills
+Listen a basketball coach complain about his son's coach邻居抱怨等.
