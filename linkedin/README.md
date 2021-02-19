@@ -58,3 +58,9 @@ Empathize Listening
 - Practice will improve your skills
 Listen a basketball coach complain about his son's coach邻居抱怨等.
 
+## Challenges to listening
+1. Mental filters(the most pervasive problem)
+2. Multitasking
+3. Distraction by delivery
+4. information overload
+5. inappropriate response
