@@ -1,5 +1,6 @@
 # Linkedin learning
 ## Effective listening
+## Assessing your listening skills
 Five skills for improved listening
 1. Recall details
 2. Understand the big picture
@@ -56,3 +57,4 @@ Empathize Listening
 4. Avoid discounting phrases
 - Practice will improve your skills
 Listen a basketball coach complain about his son's coach邻居抱怨等.
+
