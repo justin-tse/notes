@@ -71,3 +71,13 @@ Snake in the grass
 Busy as a beaver
 we always use our experience to juge the situation
 Filters are caused by previous experiences and need a good cleaning
+
+### Multitasking
+- Multitasking harms efficiency and productivity
+Making more errors and slowing down overall work time when they are trying to switch back and forth between tasks.
+
+### Paying attention to delivery
+When you're Distracted by delivery...
+1. Focus on content
+2. Paraphrase what you've heard(summarize the conversation)
+3. Remove nonverbal distractors
