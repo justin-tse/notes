@@ -81,3 +81,4 @@ When you're Distracted by delivery...
 1. Focus on content
 2. Paraphrase what you've heard(summarize the conversation)
 3. Remove nonverbal distractors
+
