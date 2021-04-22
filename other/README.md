@@ -13,3 +13,7 @@ select emoji to unicode have 标准
 Ask
 Emoji has been defined in unicode, why we will see the different pattern in different verizon phone or different os, such as mac or windows?
 Like the fonts, use the same name but use different picture.
+
+# Sheel-oh-my-zsh-alias
+[oh-my-zsh and persistent aliases](https://stephencharlesweiss.com/oh-my-zsh-and-persistent-aliases)
+
